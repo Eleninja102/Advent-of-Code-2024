@@ -9,10 +9,10 @@ building Advent of Code solutions.
 ## Usage
 
 Swift comes with Xcode, or you can [install it](https://www.swift.org/install/)
-on a supported macOS, Linux, or Windows platform. 
+on a supported macOS, Linux, or Windows platform.
 
 If you're using Xcode, you can open this project by choosing File / Open and
-select the parent directory. 
+select the parent directory.
 
 If you prefer the command line, you can run the test suite with `swift test`,
 and run the output with `swift run`.

@@ -42,7 +42,7 @@ struct Day03: AdventDay {
       for match in matches{
         if(1...3 ~= (match[number1].words.count) && 1...3 ~= (match[number2].words.count)){
           solution += (match[number1] * match[number2]);
-          print("Number: \(match[number1]),\(match[number2]) \((match[number1] * match[number2]))")
+          // print("Number: \(match[number1]),\(match[number2]) \((match[number1] * match[number2]))")
 
         }
       }
@@ -84,7 +84,7 @@ struct Day03: AdventDay {
     var solution = 0
     for section in entities{
       section.matches(of: choices).forEach{ match in
-        print(match.output)
+        // print(match.output)
         switch match.output{
         case ("don't()", _, _):
           enabled = false;
